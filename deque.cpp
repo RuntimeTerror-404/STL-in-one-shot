@@ -15,7 +15,7 @@ int main()
     d.erase(d.begin() + 2);
     d.insert(d.end() - 1, 500);
     sort(d.begin(), d.end());
-    for (int i : d)
+    for (auto i : d)
     {
         cout << i << " ";
     }

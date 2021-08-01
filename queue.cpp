@@ -9,10 +9,11 @@ int main()
     q.push("Mohit");
     q.push("Erricto");
     q.push("Johnny");
-
     // q.pop();
 
     cout << "Size -> " << q.size() << endl;
 
     cout << q.front() << endl;
+
+    
 }
